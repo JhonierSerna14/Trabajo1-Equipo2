@@ -1,0 +1,16 @@
+{
+  "db-connections": {
+    "mongodb": {
+      "host": "cluster0.ersocxf.mongodb.net",
+      "user": "Trabajo1_rest_api_user",
+      "password": "egtBDuG6FV",
+      "dbname": "Trabajo1DB"
+    }
+  },
+  "secretkeys": {
+    "cryptojs": "",
+    "jwt": ""
+  },
+  "server-port": 3000,
+  "session-time": 3600
+}

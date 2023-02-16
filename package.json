@@ -1,0 +1,19 @@
+{
+  "name": "trabajo1",
+  "version": "1.0.0",
+  "description": "Rest api para Raza y Mascota",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JhonierSerna14/Trabajo1-Equipo2.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JhonierSerna14/Trabajo1-Equipo2/issues"
+  },
+  "homepage": "https://github.com/JhonierSerna14/Trabajo1-Equipo2#readme"
+}
