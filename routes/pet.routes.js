@@ -11,15 +11,15 @@ exports.PetRoutes = (app) => {
   });
 
   app.post("/pet", (req, res, next) => {
-    controller.createStudentGroup(req, res, next);
+    controller.createPet(req, res, next);
   });
 
   app.put("/pet", (req, res, next) => {
-    controller.updateStudentGroup(req, res, next);
+    controller.updatePet(req, res, next);
   });
 
   app.delete("/pet", (req, res, next) => {
-    controller.deleteStudentGroup(req, res, next);
+    controller.deletePet(req, res, next);
   });
 };
 

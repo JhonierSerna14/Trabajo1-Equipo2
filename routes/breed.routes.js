@@ -11,14 +11,14 @@ exports.BreedRoutes = (app) => {
   });
 
   app.post("/breed", (req, res, next) => {
-    controller.createStudentGroup(req, res, next);
+    controller.createBreed(req, res, next);
   });
 
   app.put("/breed", (req, res, next) => {
-    controller.updateStudentGroup(req, res, next);
+    controller.updateBreed(req, res, next);
   });
 
   app.delete("/breed", (req, res, next) => {
-    controller.deleteStudentGroup(req, res, next);
+    controller.deleteBreed(req, res, next);
   });
 };
