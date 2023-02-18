@@ -11,7 +11,7 @@ exports.createPet = (req, res, next) => {
         weight: req.body.weight,
         feeding: req.body.feeding,
         contactInformation: req.body.contactInformation,
-        breed_id: result.id,
+        breed_id: req.body.breedId
     };
     petDto.create(pet, (err, data) => {
         if (err) {

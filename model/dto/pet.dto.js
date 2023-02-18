@@ -2,7 +2,7 @@
 const mongoose = require("mongoose");
 
 /**using schema */
-const schema = require("../schemas/mascota.schema");
+const schema = require("../schemas/pet.schema");
 
 schema.statics = {
     create: function(data, cb) {
@@ -23,5 +23,5 @@ schema.statics = {
     }
 };
 
-const dto = mongoose.model("coll_mascota", schema);
+const dto = mongoose.model("coll_pet", schema);
 module.exports = dto;
