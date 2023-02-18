@@ -1,6 +1,6 @@
 const controller = require ("../controller/logic/breed.controller");
 
-exports.mascotaRoutes = (app) => {
+exports.BreedRoutes = (app) => {
   app.get("/breed", (req, res, next) => {
     controller.getAll(req, res, next);
   });

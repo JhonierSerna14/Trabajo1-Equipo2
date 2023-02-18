@@ -17,7 +17,11 @@
   },
   "homepage": "https://github.com/JhonierSerna14/Trabajo1-Equipo2#readme",
   "dependencies": {
+    "config": "^3.3.9",
+    "express": "^4.18.2",
     "modules": "^0.4.0",
+    "mongoose": "^6.9.2",
+    "mongoose-unique-validator": "^3.1.0",
     "node": "^19.6.0"
   }
 }

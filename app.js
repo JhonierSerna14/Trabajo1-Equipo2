@@ -1,9 +1,9 @@
-/ packages */
+/* packages */
 const express = require("express");
 const config = require("config");
 const bodyParser = require("body-parser");
 
-/ app configuration /
+/* app configuration */
 const app = express();
 const port = config.get("server-port");
 const jsonParser = bodyParser.json();

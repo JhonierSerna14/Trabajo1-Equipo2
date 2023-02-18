@@ -1,6 +1,6 @@
 const controller = require ("../controller/logic/pet.controller");
 
-exports.mascotaRoutes = (app) => {
+exports.PetRoutes = (app) => {
   app.get("/pet", (req, res, next) => {
     controller.getAll(req, res, next);
   });
